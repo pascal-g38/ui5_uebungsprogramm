@@ -1,0 +1,28 @@
+{
+    "Employees": [
+        {
+            "EmployeeFirstName": "Pascal",
+            "EmployeeLastName": "Golomb"
+        },
+        {
+            "EmployeeFirstName": "Tom",
+            "EmployeeLastName": "Porten"
+        },
+        {
+            "EmployeeFirstName": "Finn",
+            "EmployeeLastName": "Riechmann"
+        },
+        {
+            "EmployeeFirstName": "Len",
+            "EmployeeLastName": "Wohlfeil"
+        },
+        {
+            "EmployeeFirstName": "Elijah",
+            "EmployeeLastName": "Schuffenhauer"                    
+        },
+        {
+            "EmployeeFirstName": "Erdem",
+            "EmployeeLastName": "Oguz"
+        }
+    ]
+}

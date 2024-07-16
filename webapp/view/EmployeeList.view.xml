@@ -1,0 +1,17 @@
+<mvc:View
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+   controllerName="ui5.uebungsprogramm.controller.EmployeeList">
+   <List
+      id="employeeList"
+      headerText="{i18n>employeeListTitle}"
+      class="sapUiResponsiveMargin"
+      width="auto"
+      items="{employee>/Employees}"
+   >
+      <items>
+         <ObjectListItem
+            title="{employee>EmployeeFirstName} {employee>EmployeeLastName}"/>
+      </items>
+   </List>
+</mvc:View>
