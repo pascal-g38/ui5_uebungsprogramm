@@ -9,6 +9,15 @@
       width="auto"
       items="{employee>/Employees}"
    >
+      <headerToolbar>
+         <Toolbar>
+            <Title text="{i18n>employeeListTitle}"/>
+            <ToolbarSpacer/>
+            <SearchField 
+               width="50%" 
+               search=".onFilterEmployees"/>
+         </Toolbar>
+      </headerToolbar>   
       <items>
          <ObjectListItem
             title="{employee>EmployeeFirstName} {employee>EmployeeLastName}"/>

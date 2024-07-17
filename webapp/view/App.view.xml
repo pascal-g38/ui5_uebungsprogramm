@@ -5,12 +5,12 @@
    displayBlock="true"
    >
     <Shell>
-        <App class="myAppDemoWT">
+        <App class="myAppDemo">
             <pages>
                 <Page title="{i18n>homePageTitle}">
                     <content>
                         <Panel
-                            headerText="{i18n>employeeListTitle}"
+                            headerText=""
                             class="sapUiResponsiveMargin"
                             width="auto">
                             <content>
