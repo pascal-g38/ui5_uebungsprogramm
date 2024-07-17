@@ -15,12 +15,12 @@
             <ToolbarSpacer/>
             <SearchField 
                width="50%" 
-               search=".onFilterEmployees"/>
+               liveChange=".onFilterEmployees"
+               showSearchButton="false"/>
          </Toolbar>
       </headerToolbar>   
       <items>
-         <ObjectListItem
-            title="{employee>EmployeeFirstName} {employee>EmployeeLastName}"/>
+         <ObjectListItem title="{employee>EmployeeFirstName} {employee>EmployeeLastName}"/>
       </items>
    </List>
 </mvc:View>
